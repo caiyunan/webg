@@ -1,0 +1,94 @@
+/**
+ * Created by YY on 2015/11/18.
+ */
+
+ul{margin:0; padding:0; list-style-type: none;}
+a {  cursor: pointer;  text-decoration: none;
+}
+.message_main, .message_nav_box {
+    margin: 0 auto;
+    width: 1000px;
+}
+.message_mainLeft, .message_mainRight {
+    margin-bottom: 5px;
+    margin-right: 40px;
+    width: 452px;
+}
+.message_mainLeft {
+    float: left;
+}
+.message_mainRight {
+    float: right;
+}
+.message_mainLeft_box, .message_mainRight_box {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    font-family: "Î¢ÈíÑÅºÚ";
+    margin-top: 20px;
+}
+.message_main_title {
+    background: #dbe4eb none repeat scroll 0 0;
+    border-bottom: 2px solid #339acc;
+    height: 56px;
+    width: 100%;
+}
+.message_main_title_bg {
+    background: rgba(0, 0, 0, 0) url("../img/arrangement/kf_message_main_title_bg.jpg") no-repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 18px;
+    font-weight: 600;
+    height: 56px;
+    line-height: 58px;
+    width: 185px;
+}
+.message_main_title_bg i {
+    margin-left: 30px;
+}
+.message_main_title_more {
+    background: rgba(0, 0, 0, 0) url("../img/arrangement/kf_message_moreL.gif") no-repeat scroll 0 0;
+    float: right;
+    height: 31px;
+    margin: 14px 20px 0 0;
+    width: 31px;
+}
+a.message_main_title_more:hover {
+    background: rgba(0, 0, 0, 0) url("../img/arrangement/kf_message_moreH.gif") no-repeat scroll 0 0;
+}
+.message_main_brief {
+    background: #7ebddc none repeat scroll 0 0;
+    margin-top: 1px;
+}
+.message_main_brief_Notice {
+    background: rgba(0, 0, 0, 0) url("../img/arrangement/kf_message_Notice.gif") no-repeat scroll left center;
+    color: #fff;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 30px;
+    padding: 23px 20px 17px 60px;
+    position: relative;
+}
+.message_main_count_box {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.message_main_count_box a {
+    background: rgba(0, 0, 0, 0) url("../img/arrangement/kf_message_contentBox_g.gif") no-repeat scroll 0 0;
+    color: #3399cc;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    margin: 20px 0 0 20px;
+    text-align: center;
+    width: 196px;
+}
+.message_main_count_box a:hover {
+    background: rgba(0, 0, 0, 0) url("../img/arrangement/kf_message_contentBox_b.gif") no-repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.box{ width:958px; margin:0 auto; overflow:hidden;height:auto; margin-top: 20px;float: left}
+.picbox{ width:912px; height:189px; overflow:hidden; position:relative;float: left}
+.piclist{ height:189px;position:absolute; left:0px; top:0px}
+.picbox ul{  padding:0px; float:left;margin-top: 0px}
+.piclist li{ background:#eee; padding:0px; float:left;margin: 0px;list-style: none}
+.swaplist{ position:absolute; left:-3000px; top:0px}
+.og_prev{
+    width:23px; height:190px;
+    background:url(../img/album-left.png) no-repeat;
+    float: left; }
+.og_next{
+    width:23px; height:190px;
+    background:url(../img/album-right.png) no-repeat;
+    float: left;
+}

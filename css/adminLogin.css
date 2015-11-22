@@ -1,0 +1,13 @@
+/**
+ * Created by YY on 2015/11/20.
+ */
+.select_style
+{
+    width:137px;
+    height:30px;
+    text-align: center;
+}
+.select_style option
+{
+    height:30px;
+}

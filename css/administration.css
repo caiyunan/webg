@@ -1,0 +1,162 @@
+/**
+ * Created by YY on 2015/11/18.
+ */
+
+ul{margin:0; padding:0; list-style-type: none;}
+a {  cursor: pointer;  text-decoration: none;
+}
+.kf_HotBox_top {
+    border-top: 2px solid #3399cc;
+    margin-top: 20px;
+    width: 100%;
+}
+.kf_HotBox {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ececec;
+    width: 100%;
+}
+.kf_HotBox {
+    height: 300px;
+}
+
+ #kf_PastBox {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ececec;
+    height:550px;
+    width: 100%;
+}
+.kf_HotBox h3 {
+    background: rgba(0, 0, 0, 0) url("../img/administration/Hot_topics_line.gif") no-repeat scroll center right ;
+    color: #3399cc;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 18px 20px 10px 0;
+    padding-left: 80px;
+    position: relative;
+}
+.kf_HotBox h3 i {
+    background: rgba(0, 0, 0, 0) url("../img/administration/Hot_topics_03.gif") no-repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 26px;
+    height: 52px;
+    left: 20px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: -19px;
+    width: 43px;
+}
+.kf_HotBox_picScroll {
+    overflow: hidden;
+    position: relative;
+}
+
+.kf_HotBox_picScroll .hd {
+    overflow: hidden;
+    padding: 0 10px;
+}
+.kf_HotBox_picScroll .hd .prev, .kf_HotBox_picScroll .hd .next {
+    display: block;
+    height: 52px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+    width: 52px;
+}
+.kf_HotBox_picScroll .hd .prev {
+    background: rgba(0, 0, 0, 0) url("../img/administration/Hot_arrowGrey.gif") no-repeat scroll 0 0;
+    left: 0;
+    margin-left: 15px;
+}
+.kf_HotBox_picScroll .hd .next {
+    background: rgba(0, 0, 0, 0) url("../img/administration/Hot_next.gif") no-repeat scroll 0 0;
+    left: auto;
+    margin-right: 15px;
+    right: 0;
+}
+.kf_HotBox_picScroll .hd .prev:hover {
+    background: rgba(0, 0, 0, 0) url("../img/administration/Hot_prev.gif") no-repeat scroll 0 0;
+}
+.kf_HotBox_picScroll .hd .next:hover {
+    background: rgba(0, 0, 0, 0) url("../img/administration/Hot_arrowBlue.gif") no-repeat scroll 0 0;
+}
+.kf_HotBox_picScroll .hd .prevStop {
+    display: none;
+}
+.kf_HotBox_picScroll .hd .nextStop {
+    display: none;
+}
+.kf_HotBox_picScroll .bd {
+    margin: 30px 0 0 70px;
+    padding: 10px;
+}
+.kf_HotBox_picScroll .bd ul {
+    overflow: hidden;
+}
+.kf_HotBox_picScroll .bd ul li {
+    background: rgba(0, 0, 0, 0) url("../img/administration/Hot_topics_box.gif") no-repeat scroll 0 0;
+    float: left;
+    height: 154px;
+    margin-left: 35px;
+    position: relative;
+    width: 227px;
+}
+.kf_HotBox_picScroll .bd ul li .pic {
+    color: #fff;
+    display: table;
+    font-size: 18px;
+    font-weight: bold;
+    height: 90px;
+    margin: 16px 0 0 24px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    z-index: 9;
+}
+.kf_HotBox_picScroll .bd ul li .pic p {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.kf_HotBox_picScroll .bd ul li .pic p i {
+    display: inline-block;
+    width: 160px;
+}
+ .kf_HotBox_picScroll .bd ul li .go {
+    bottom: 10px;
+    display: inline-block;
+    font-size: 12px;
+    position: absolute;
+}
+
+.kf_HotBox_picScroll .bd ul li .go {
+    background: rgba(0, 0, 0, 0) url("../img/administration/Hot_topics_go.gif") no-repeat scroll right center;
+    color: #3399cc;
+    padding: 3px 30px 3px 0;
+    right: 15px;
+}
+
+.kf_Past_portal {
+    margin-top: 25px;
+}
+.kf_Past_portal li {
+    background: rgba(0, 0, 0, 0) url("../img/administration/Hot_topics_bg.gif") no-repeat scroll 0 0;
+    display: table;
+    float: left;
+    height: 90px;
+    margin: 20px 0 0 50px;
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+}
+.kf_Past_portal li a {
+    color: #1f92c8;
+    display: table-cell;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.kf_Past_portal li a i {
+}

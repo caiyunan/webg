@@ -1,0 +1,173 @@
+/**
+ * Created by YY on 2015/11/18.
+ */
+ul{margin:0; padding:0; list-style-type: none;}
+a {  cursor: pointer;  text-decoration: none;
+}
+.kf_Government_left,.kf_Government_right{
+    float: left;
+    margin-top: 30px;
+}
+.kf_Government_right {
+    margin-left: 25px;
+}
+.kf_Government_left {
+    width: 25%;
+}
+.kf_Government_right {
+    width: 70%;
+}
+.kf_GovCaption {
+    background: #60aacf none repeat scroll 0 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+.kf_GovLink {
+    margin:0; padding:0;
+    display: inline-block;
+    margin: 5px 0 20px;
+    width: 100%;
+}
+.kf_GovLink li {
+    background: #e2f1f8 none repeat scroll 0 0;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 5px;
+
+}
+.kf_GovLink li a {
+    background: rgba(0, 0, 0, 0) url("../img/document/kf_gov_01.gif") no-repeat scroll left center;
+    color: #548fab;
+    display: block;
+    font-size: 16px;
+    margin-left: 35px;
+    padding-left: 30px;
+}
+
+.kf_GovSquare {
+    overflow: hidden;
+    width: 100%;
+}
+.kf_GovSquare li {
+    background: #e2f1f8 none repeat scroll 0 0;
+    float: left;
+    height: 66px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 6px;
+    text-align: center;
+    width: 115px;
+}
+.kf_GovSquare li a {
+    color: #548fab;
+    display: block;
+    font-size: 14px;
+    margin-top: 7px;
+    padding-top: 34px;
+}
+.kf_GovSquare li .kf_GovSquare_dot01 {
+    background: rgba(0, 0, 0, 0) url("../img/document/kf_gov_02.gif") no-repeat scroll center top;
+}
+.kf_GovSquare li .kf_GovSquare_dot02 {
+    background: rgba(0, 0, 0, 0) url("../img/document/kf_gov_03.gif") no-repeat scroll center top;
+}
+.kf_GovSquare li .kf_GovSquare_dot03 {
+    background: rgba(0, 0, 0, 0) url("../img/document/kf_gov_04.gif") no-repeat scroll center top;
+}
+.kf_GovSquare li .kf_GovSquare_dot04 {
+    background: rgba(0, 0, 0, 0) url("../img/document/kf_gov_05.gif") no-repeat scroll center top;
+}
+.kf_GovSquare li .kf_GovSquare_dot05 {
+    background: rgba(0, 0, 0, 0) url("../img/document/kf_gov_08.gif") no-repeat scroll center top;
+}
+.kf_GovSquare li .kf_GovSquare_dot06 {
+    background: rgba(0, 0, 0, 0) url("../img/document/kf_gov_07.gif") no-repeat scroll center top;
+}
+
+.kf_Gov_C_new {
+    float:left;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 72%;
+}
+.kf_Gov_C_new .hd {
+    border-bottom: 2px solid #3399cc;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 10px 0 20px;
+    position: relative;
+}
+.kf_Gov_C_new .hd ul {
+    float: left;
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.kf_Gov_C_new .hd ul li {
+    color: #3399cc;
+    cursor: default;
+    float: left;
+    font-size: 17px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    width: 120px;
+}
+.kf_Gov_C_new .hd ul li.on {
+    background: #3399cc none repeat scroll 0 0;
+    color: #fff;
+    font-weight: bold;
+    height: 48px;
+}
+.kf_Gov_C_new .hd ul li a {
+    color: #3399cc;
+}
+.kf_Gov_C_new .hd ul li.on a {
+    color: #fff;
+}
+.kf_Gov_C_new .bd {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #f2f2f4;
+    height: 223px;
+}
+#kf_Gov_C_slide .bd {
+    height: 180px;
+}
+.kf_Gov_C_new .bd ul {
+    padding: 10px 20px 0;
+    position: relative;
+}
+.kf_Gov_C_new .bd li {
+    font-size: 14px;
+    line-height: 34px;
+    text-overflow: ellipsis;
+}
+.kf_Gov_C_new .bd li a {
+    color: #333333;
+}
+.kf_Gov_C_new .bd li i {
+    color: #d64a4a;
+    margin-right: 8px;
+}
+.kf_Gov_C_new .bd li .date {
+    color: #999;
+    float: right;
+}
+.kf_Gov_C_newMore {
+    color: #999999;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: -32px;
+}
+.kf_Gov_C_newDot li {
+    background: rgba(0, 0, 0, 0) url("../img/document/kf_icon.gif") no-repeat scroll left center;
+    padding-left: 15px;
+}

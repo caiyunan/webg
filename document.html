@@ -1,0 +1,285 @@
+<!--
+* Created by YY on 2015/11/19.
+-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>document</title>
+    <link href="css/consist.css" rel="stylesheet" type="text/css">
+    <link href="css/test.css " rel="stylesheet" type="text/css">
+    <link href="css/document.css " rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.10.2.min.js "  type="text/javascript"></script>
+
+    <script language="JavaScript">
+               $(document).ready(function(){
+                     $("#send_li_1").mouseenter(function(){
+                         $("#send_li_1").attr("class","on");
+                         $("#get_li_1").attr("class","");
+                         $("#send_1").css("display","block");
+                         $("#get_1").css("display","none");
+                     });
+                     $("#get_li_1").mouseenter(function(){
+                         $("#get_li_1").attr("class","on");
+                         $("#send_li_1").attr("class","");
+                         $("#get_1").css("display","block");
+                         $("#send_1").css("display","none");
+                     });
+                    $("#send_li_2").mouseenter(function(){
+                         $("#send_li_2").attr("class","on");
+                         $("#get_li_2").attr("class","");
+                         $("#send_2").css("display","block");
+                         $("#get_2").css("display","none");
+                     });
+                     $("#get_li_2").mouseenter(function(){
+                         $("#get_li_2").attr("class","on");
+                         $("#send_li_2").attr("class","");
+                         $("#get_2").css("display","block");
+                         $("#send_2").css("display","none");
+                     });
+
+                   });
+    </script>
+</head>
+<body>
+<div id="top">
+    <div class="top_container">
+        <div class="top_tag">
+            <a href="#">官方微博</a>
+            <a href="login.html" target="_blank">市民登录</a>
+            <a href="adminlogin.html">后台管理</a>
+        </div>
+    </div>
+</div>
+<div id="centerbox">
+    <div class="ceterbox_tag">
+        <div class="centerbox_logo"><img src="img/logo.png"></div>
+        <h1>政府办公门户</h1>
+        <!--<div class="centerbox_practicecenter"></div>-->
+        <div class="centerbox_searchbutton">
+            <input class="search" type="text">
+            <input class="search_button" type="submit" value="">
+        </div>
+    </div>
+    <nav class="manu">
+        <ul>
+            <li><a class="active" href="index.html">首页</a></li>
+            <li><a class="active" href="document.html">公文管理</a></li>
+            <li><a class="active" href="administration.html">行政管理</a></li>
+            <li><a class="active" href="governmentpublic.html">政务公开</a></li>
+            <li><a class="active" href="question.html">在线答疑</a></li>
+            <li><a class="active" href="consit.html">部门架构与分工</a></li>
+            <li><a class="active" href="arrangement.html">日常安排</a></li>
+        </ul>
+    </nav>
+
+
+    <div>
+        <!--左边DIV-->
+        <div class="kf_Government_left">
+        <div class="kf_GovCaption">政府公文管理平台</div>
+        <ul class="kf_GovLink">
+            <li>
+                <a href="#">文件起草</a>
+            </li>
+            <li>
+                <a href="#">政府收文处理</a>
+            </li>
+            <li>
+                <a href="#">政府发文处理</a>
+            </li>
+            <li>
+                <a href="#">提醒监督管理</a>
+            </li>
+        </ul>
+
+            <div class="kf_GovCaption">档案信息管理</div>
+            <ul class="kf_GovSquare">
+                <li>
+                    <a class="kf_GovSquare_dot01" href="#">发布</a>
+                </li>
+                <li>
+                    <a class="kf_GovSquare_dot02" href="#">登记</a>
+                </li>
+                <li>
+                    <a class="kf_GovSquare_dot03" href="#">查询</a>
+                </li>
+                <li>
+                    <a class="kf_GovSquare_dot04" href="#">归档</a>
+                </li>
+                <li>
+                    <a class="kf_GovSquare_dot05" href="#">办理</a>
+                </li>
+                <li>
+                    <a class="kf_GovSquare_dot06" href="#">公共监管</a>
+                </li>
+            </ul>
+        </div>
+        <!--右边DIV-->
+        <div clas="kf_Government_right">
+           <!--最新发文、最新收文-->
+            <div id="kf_Gov_C_slide" class="kf_Gov_C_new">
+                <div class="hd">
+                    <ul>
+                        <li id="send_li_1" class="on">
+                            <a href="#">最新发文</a>
+                        </li>
+                        <li  id="get_li_1" class="">
+                            <a href="#">最新收文</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bd">
+                    <ul id="send_1" class="kf_Gov_C_newDot" style="display: block">
+                        <a class="kf_Gov_C_newMore" target="_blank" href="#"> + 更多</a>
+                        <li>
+                            <span class="date">11-20</span>
+                            <a target="_blank" href="#">关于加强加油（气）站安全管理的通告</a>
+                        </li>
+                        <li>
+                            <span class="date">11-20</span>
+                            <a target="_blank" href="#">长沙市开福区人民政府关于取消非行政许可审批事项的决定</a>
+                        </li>
+                        <li>
+                            <span class="date">11-19</span>
+                            <a target="_blank" href="#">关于印发《长沙市开福区社会救助申请家庭</a>
+                        </li>
+                        <li>
+                            <span class="date">11-19</span>
+                            <a target="_blank" href="#">关于开展中山西路周边市容环境卫生集中整治行动的通告</a>
+                        </li>
+                        <li>
+                            <span class="date">11-19</span>
+                            <a target="_blank" href="#">长沙市开福区人民政府关于依法整治非法采砂洗砂行为的通告</a>
+                        </li>
+                        <li>
+                            <span class="date">11-18</span>
+                            <a target="_blank" href="#">长沙市开福区人民政府关于2015年安全生产行政执法计划的实施</a>
+                        </li>
+                    </ul>
+                    <ul id="get_1" class="kf_Gov_C_newDot" style="display: none">
+                        <a class="kf_Gov_C_newMore" target="_blank" href="#"> + 更多</a>
+                        <li>
+                            <span class="date">11-20</span>
+                            <a target="_blank" href="#">长沙市开福区青竹湖镇人民政府青竹湖星月污水处理站购买污水处理器的计划</a>
+                        </li>
+                        <li>
+                            <span class="date">11-18</span>
+                            <a target="_blank" href="#">长沙市开福区电子政务中心城市电子监控点光纤线路租赁采购计划</a>
+                        </li>
+                        <li>
+                            <span class="date">11-17</span>
+                            <a target="_blank" href="#">长沙市开福区教育局办公家具设备采购项目成交结果公告</a>
+                        </li>
+                        <li>
+                            <span class="date">11-17</span>
+                            <a target="_blank" href="#">长沙市开福区市容环境卫生管理局工服采购项目成交结果公告</a>
+                        </li>
+                        <li>
+                            <span class="date">11-17</span>
+                            <a target="_blank" href="#">长沙市开福区新河街道办事处网格化服务中心设备管理方案</a>
+                        </li>
+                        <li>
+                            <span class="date">11-15</span>
+                            <a target="_blank" href="#">长沙市开福区市容环境卫生管理局雨衣雨鞋采购项目终止采购计划</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           <!--规划文档、统计文档-->
+            <div  class="kf_Gov_C_new">
+                <div class="hd">
+                    <ul>
+                        <li id="send_li_2" class="on">
+                            <a href="#">最新发文</a>
+                        </li>
+                        <li  id="get_li_2" class="">
+                            <a href="#">最新收文</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bd">
+                    <ul id="send_2" class="kf_Gov_C_newDot" style="display: block">
+                        <a class="kf_Gov_C_newMore" target="_blank" href="#"> + 更多</a>
+                        <li>
+                            <span class="date">11-20</span>
+                            <a target="_blank" href="#">关于加强加油（气）站安全管理的通告</a>
+                        </li>
+                        <li>
+                            <span class="date">11-20</span>
+                            <a target="_blank" href="#">长沙市开福区人民政府关于取消非行政许可审批事项的决定</a>
+                        </li>
+                        <li>
+                            <span class="date">11-19</span>
+                            <a target="_blank" href="#">关于印发《长沙市开福区社会救助申请家庭</a>
+                        </li>
+                        <li>
+                            <span class="date">11-19</span>
+                            <a target="_blank" href="#">关于开展中山西路周边市容环境卫生集中整治行动的通告</a>
+                        </li>
+                        <li>
+                            <span class="date">11-19</span>
+                            <a target="_blank" href="#">长沙市开福区人民政府关于依法整治非法采砂洗砂行为的通告</a>
+                        </li>
+                        <li>
+                            <span class="date">11-18</span>
+                            <a target="_blank" href="#">长沙市开福区人民政府关于2015年安全生产行政执法计划的实施</a>
+                        </li>
+                    </ul>
+                    <ul id="get_2" class="kf_Gov_C_newDot" style="display: none">
+                        <a class="kf_Gov_C_newMore" target="_blank" href="#"> + 更多</a>
+                        <li>
+                            <span class="date">11-20</span>
+                            <a target="_blank" href="#">长沙市开福区青竹湖镇人民政府青竹湖星月污水处理站购买污水处理器的计划</a>
+                        </li>
+                        <li>
+                            <span class="date">11-18</span>
+                            <a target="_blank" href="#">长沙市开福区电子政务中心城市电子监控点光纤线路租赁采购计划</a>
+                        </li>
+                        <li>
+                            <span class="date">11-17</span>
+                            <a target="_blank" href="#">长沙市开福区教育局办公家具设备采购项目成交结果公告</a>
+                        </li>
+                        <li>
+                            <span class="date">11-17</span>
+                            <a target="_blank" href="#">长沙市开福区市容环境卫生管理局工服采购项目成交结果公告</a>
+                        </li>
+                        <li>
+                            <span class="date">11-17</span>
+                            <a target="_blank" href="#">长沙市开福区新河街道办事处网格化服务中心设备管理方案</a>
+                        </li>
+                        <li>
+                            <span class="date">11-15</span>
+                            <a target="_blank" href="#">长沙市开福区市容环境卫生管理局雨衣雨鞋采购项目终止采购计划</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--在这里加<DIV>-->
+</div>
+<fonter id="foot">
+    <div class="foot_container">
+        <div class="foot_container_left">
+            <ul>
+                <li><a>法律声明</a></li>
+                <li><a>网站地图</a></li>
+                <li><a>联系我们</a></li>
+                <li><a>友情链接</a></li>
+            </ul>
+        </div>
+        <div class="foot_container_center"></div>
+        <div class="foot_container_right">
+            <div class="foot_container_right_fist">政府管理中心 版权所有</div>
+            <div class="foot_container_right_second">
+                <ul>
+                    <li>Designed by CCSU Software </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</fonter>
+
+</body>
+</html>

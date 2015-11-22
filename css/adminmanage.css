@@ -1,0 +1,67 @@
+/**
+ * Created by YY on 2015/11/21.
+ */
+ul{margin:0; padding:0; list-style-type: none;}
+a {  cursor: pointer;  text-decoration: none;
+}
+.kf_listSubmenu {
+    background: rgba(0, 0, 0, 0) url("../img/adminmanage/kf_listSubmenu.gif") repeat-y scroll 0 0;
+    height: 100%;
+}
+.kf_listSubmenu {
+    float: left;
+    width: 220px;
+}
+.kf_listSubmenu .kf_listTitle {
+    background: rgba(0, 0, 0, 0) url("../img/adminmanage/list_titleBg.gif") no-repeat scroll 0 0;
+    height: 60px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    width: 220px;
+}
+.kf_listSubmenu .kf_listTitle i {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0 0 60px;
+    font-style: normal;
+}
+.kf_listColumn a {
+    background: rgba(0, 0, 0, 0) url("../img/adminmanage/list_menuLink.gif") no-repeat scroll 0 0;
+    color: #a9a9a9;
+    display: block;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 0 10px 20px;
+    width: 180px;
+}
+.kf_listColumn a:hover, .kf_listColumn .now {
+    background: rgba(0, 0, 0, 0) url("../img/adminmanage/list_menuHover.gif") no-repeat scroll 0 0;
+    color: #fff;
+}
+.kf_listColumn a i {
+    margin-left: 36px;
+}
+
+.kf_PowerContent {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    float: right;
+}
+.kf_PowerContent {
+    padding: 20px 25px 0;
+    width: 688px;
+}
+.kf_listContent .kf_listContent_title, .kf_PowerContent .kf_listContent_title {
+    border-bottom: 2px solid #3399cc;
+    color: #3399cc;
+    display: inline-block;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.kf_listContent .kf_listContent_line, .kf_PowerContent .kf_listContent_line {
+    border-bottom: 2px solid #dfdfdf;
+    margin-top: -2px;
+}

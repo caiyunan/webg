@@ -1,0 +1,44 @@
+#center{
+    width:100%;
+}
+.center_bottom{
+    width: 100%;
+
+    overflow: hidden;
+}
+.center_top{
+    width: 100%;
+}
+.center_bottom_right{
+    width: 74.5%;
+
+}
+.center_bottom_left{
+    width: 25%;
+}
+.center_bottom_right_manu{
+    border:solid 1px #e2e2e2;
+    color: #60aacf;
+}
+.center_bottom_right_content{
+    width: 99.5%;
+    border:solid 1px  #e2e2e2;
+    margin-top: 2px;
+}
+.center_bottom_right_content ul li{
+    list-style: none ;
+    border-bottom:1px dashed #333333;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.center_bottom_right_content ul li span{
+    float: right;
+    margin-right: 10px;
+}
+.turn,.turn button {font-size: 12px}
+.turn input{
+     width: 30px;
+ }
+.turn button{
+
+}
